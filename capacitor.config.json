@@ -1,0 +1,6 @@
+{
+	"appId": "io.ionic.starter",
+	"appName": "Mobile Legends Card Match",
+	"webDir": "www",
+	"bundledWebRuntime": false
+}

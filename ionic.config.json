@@ -1,0 +1,7 @@
+{
+  "name": "Mobile Legends Card Match",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
