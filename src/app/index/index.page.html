@@ -1,0 +1,27 @@
+
+<ion-header>
+  <ion-toolbar>
+    <ion-title>
+      Home
+    </ion-title>
+    <ion-buttons slot ="end" >
+     <ion-button  routerLink="/home" routerDirection="forward" >Logout</ion-button>   
+   </ion-buttons>
+ 
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+
+  <div id="container">
+    <strong>Welcome to Mobile Legends Card Matching Game </strong>
+    <ion-button expand="block" routerLink="/level1" routerDirection="forward">
+    Play
+  </ion-button>
+
+  </div>
+
+</ion-content> 
+ <ion-footer>
+  <ion-button color="medium"expand="full" routerLink="/about" routerDirection="forward">About</ion-button>
+</ion-footer>

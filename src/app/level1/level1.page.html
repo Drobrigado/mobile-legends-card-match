@@ -1,6 +1,8 @@
 <ion-header>
   <ion-toolbar>
-    <ion-title>level 1</ion-title>
+     <ion-buttons slot="start">
+      <ion-button routerLink="/index" routerDirection="forward">Back</ion-button>
+    </ion-buttons>
   </ion-toolbar>
 </ion-header>
 
@@ -25,8 +27,5 @@
 
   </ion-row>
 
- <div align="center">
-    <h5>{{debugText}}</h5>
-    <h5>{{imageDir}}{{images[selectCard1val]}}.jpg</h5>
-  </div>
+
 </ion-content>
